@@ -36,6 +36,7 @@ into the according branch for there to stay.
 ## Previous contests
 Month         | Assignment    | Winner     | Branch
 --------------|---------------|------------|-------
+February 2014 | Steganography | *Liothen*  | Feb14
 January 2014  | Timed Product | *Fox*      | Jan14
 December 2013 | Quine         | *whoami*   | Dec13
 October 2013  | Game of Life  | *MrDownNL* | Oct13
