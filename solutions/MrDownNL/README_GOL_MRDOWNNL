@@ -1,0 +1,9 @@
+1-unpack
+2-if you cannot run gol, type make
+3-you should now be able to run gol
+
+gol can take a command line argument for the file used as follows:
+gol filename
+
+the application will ask the iteration speed and number of iterations and show the output in your shell.
+setting iteration speed to 100ms gives no flickering
