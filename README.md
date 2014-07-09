@@ -39,3 +39,10 @@ Month         | Assignment    | Winner     | Branch
 January 2014  | Timed Product | *Fox*      | Jan14
 December 2013 | Quine         | *whoami*   | Dec13
 October 2013  | Game of Life  | *MrDownNL* | Oct13
+
+## Contact
+If you have any questions regarding the contest feel free to join #dcc on
+irc.darkscience.net:6697 (SSL). Current organisers/judges:
+
+   - Derecho
+   - Liothen
