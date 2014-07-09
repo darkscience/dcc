@@ -1,0 +1,6 @@
+Requirements
+gem install 'chunky_png'
+chmod u+x steg
+
+Run:
+./steg (encode|decode) <filename>

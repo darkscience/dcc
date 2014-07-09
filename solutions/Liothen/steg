@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+# Liothen
+## Because I couldn't get my LSB Steganography working before the DCC end
+require 'chunky_png'
+
+def prompt(*args)
+  print(*args)
+  STDIN.gets.downcase.gsub(/[^a-zA-Z0-9\s]/, '')
+end
+
+case ARGV[0]
+  when 'encode'
+    abort('Filename needed...') unless ARGV[1]
+    puts "Encoding #{ARGV[1]}"
+    msg = prompt "Message to encode on file #{ARGV[1]}: "
+    png ||= ChunkyPNG::Image.from_file(ARGV[1])
+    png.metadata['Comment'] = msg
+    png.save('e.'+ARGV[1])
+    puts "Encoded e.#{ARGV[1]}"
+    puts 'Jobs Done!!!'
+
+  when 'decode'
+    abort('Filename needed...') unless ARGV[1]
+    puts "Decoding #{ARGV[1]}"
+    png ||= ChunkyPNG::Image.from_file(ARGV[1])
+    File.open('decoded.txt', 'w') { |file| file.write(png.metadata['Comment']) }
+    puts 'Message wrote to decoded.txt'
+    puts "Encoded Message: #{png.metadata['Comment']}"
+
+  else
+    puts 'Usage: steg [encode|decode] file'
+end
+exit 0
+
