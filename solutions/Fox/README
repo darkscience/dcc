@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------
+-- What does the Fox say?                                                   Fox'--
+--    ____    |\/|                      HTTP-Math-Fetch-Parse-Evaluate-Responder--
+--    \  /\   / ..__.                                                           --
+--     \/  \__\   _/                                                            --
+--      \__   __  \                                                   in Haskell--
+--        \____\___\                            DarkScience Code Contest January--
+----------------------------------------------------------------------------------
+
+-- Implementations, in order of elegance:
+#1 Haskell implementation: ghc -o foo ./foo.hs
+#2 Perl    implementation: 			  ./foo.pl
+#3 Python  implementation: 			  ./foo.py
+#4 Ruby    implementation: 			  ./foo.rb
+#5 PHP     implementation: 			  ./foo.php
+#6 JS      implementation: 			  See ./foo.hs comments at the top of the file,
+									  should run in JS console at DCC page.
+
+[*] Scuse, the Haskell implementation is not fully commented.

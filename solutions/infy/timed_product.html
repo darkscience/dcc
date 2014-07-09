@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Timed Product</title>
+</head>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
+<script>
+$(document).ready(function() {
+    $.getJSON('http://whateverorigin.org/get?url='+encodeURIComponent('http://directus.darkscience.net:6789/')+'&callback=?',function(data){
+        d = data.contents.split(' ');
+        d = d[11]*d[13];
+        console.log(d);
+
+        $.ajax({
+            type: 'POST',
+            url: 'http://directus.darkscience.net:6789/',
+            contentType: 'application/x-www-form-urlencoded',
+            dataType: 'html',
+            crossDomain: true,
+            data: {'answer': d},
+            success: function(data) {
+                console.log(data); // Poof, no way around this.
+                $('#res').html(data); // Same origin restrictions apply. :(
+            }
+        });
+    });
+});
+</script>
+<body>
+<div id="res">&nbsp;</div>
+</body>
+</html>

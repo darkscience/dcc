@@ -1,0 +1,15 @@
+<!-- output -->
+<p style="font-family: sans-serif; font-size: 50px; text-align:center;"></p>
+
+<!-- necessary jQuery stuff -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+	u="http://149.154.154.59:6789";
+	
+	/* SOLUTION 1: multiplies ALL numbers it finds in the body together and posts it back, then displays it in a human readable way. */
+	$.get(u,function(a){$.post(u,{answer:a.slice(74).match(/\d+/g).reduce(function(a,b){return a*b})},function(a){$("p").html(a)})});
+
+	// SOLUTION 2: Super minified version, loosing some of the generalisation logic */
+	$.get(u,function(a){a=a.match(/\d+/g);$.post(u,{answer:a[1]*a[2]},function(a){$("p").html(a)})});
+</script>

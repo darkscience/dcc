@@ -1,0 +1,3 @@
+<?php
+
+	($u='http://directus.darkscience.net:6789/')&&!($a=array())&&preg_match('/[0-9]+ x [0-9]+/',file_get_contents($u),$a)&&(preg_match('(Correct|Wrong)',file_get_contents($u,false,stream_context_create(array('http'=>array('header'=>"Content-type: application/x-www-form-urlencoded\r\n",'method'=>'POST','content'=>http_build_query(array('answer'=>eval('return ('.str_replace('x','*',$a[0].');')))))))),$a)) && die(reset($a));
