@@ -30,7 +30,8 @@ and pull requests, although we'd like to ask you to keep these to a minimum.
 
 Once the judging period commences, the contents of the solutions directory are
 moved to a new branch created for that assignment. Winners will be made visible
-in master until a new contest starts.
+in master until a new contest starts, afterwards this information will be moved
+into the according branch for there to stay.
 
 ## Previous contests
 Month         | Assignment    | Winner     | Branch
