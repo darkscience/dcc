@@ -1,7 +1,18 @@
 # Darkscience Code Contest
 
-## Current contest
-There is no current contest.
+## Current contest: October 2013 - Game of Life
+This DCC will run from October 7th until October 28th.
+
+The current DCC assignment consists of creating a working Game of Life
+implementation. You are free to choose any kind of visual representation of the
+cells. Your submission will be tested using a glider gun that can be found in
+this file and should be able to reach the 100th generation. Preferably your
+application should be able to import this file and similarly formatted files,
+if it can't then hardcode this exact cell pattern into your application (it's a
+64x64 field). Being able to import more different formats or allowing
+adjustment of the field within the application earns you bonus credits.
+
+Good luck!
 
 ## Summary
 
@@ -34,11 +45,7 @@ in master until a new contest starts, afterwards this information will be moved
 into the according branch for there to stay.
 
 ## Previous contests
-Month         | Assignment    | Winner     | Branch
---------------|---------------|------------|-------
-January 2014  | Timed Product | *Fox*      | Jan14
-December 2013 | Quine         | *whoami*   | Dec13
-October 2013  | Game of Life  | *MrDownNL* | Oct13
+This is the first contest!
 
 ## Contact
 If you have any questions regarding the contest feel free to join #dcc on
