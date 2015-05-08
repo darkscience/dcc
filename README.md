@@ -1,7 +1,19 @@
 # Darkscience Code Contest
 
-## Current contest
-There is no current contest.
+## Current contest: February 2014 - Image steganography
+This DCC will run from February 8th until March 3rd.
+
+Your assignment for this contest is to create an application that is capable of
+adding hidden textual messages to images. The application needs to be able to
+both encode messages into images and to decode messages from images.
+
+The image should not have any perceivable visual differences after a message
+has been added to it. The PNG image filetype is required to be supported. Bonus
+awards can be acquired for supporting JPEG images.
+
+Example image and text that need to work will be posted here later on.
+
+Good luck!
 
 ## Summary
 
@@ -35,10 +47,11 @@ into the according branch for there to stay.
 
 ## Previous contests
 Month         | Assignment    | Winner     | Branch
---------------|---------------|------------|-------
-January 2014  | Timed Product | *Fox*      | Jan14
-December 2013 | Quine         | *whoami*   | Dec13
-October 2013  | Game of Life  | *MrDownNL* | Oct13
+--------------|---------------|------------|------------------------------------------------------
+January 2014  | Timed Product | *Fox*      | [Jan14](https://github.com/darkscience/dcc/tree/Jan14)
+December 2013 | Quine         | *whoami*   | [Dec13](https://github.com/darkscience/dcc/tree/Dec13)
+October 2013  | Game of Life  | *MrDownNL* | [Oct13](https://github.com/darkscience/dcc/tree/Oct13)
+
 
 ## Contact
 If you have any questions regarding the contest feel free to join #dcc on
