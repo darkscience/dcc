@@ -4,10 +4,10 @@
 The current DCC assignment consists of creating an application that does the
 following:
 
-    1. Retrieve formula from this page. (No longer up, see `organisation/server.py`)
-    2. Calculate the product.
-    3. Submit formula on the above page using a POST request.
-    4. Display whether answer was accepted or not (human-readable).
+   1. Retrieve formula from this page. (No longer up, see `organisation/server.py`)
+   2. Calculate the product.
+   3. Submit formula on the above page using a POST request.
+   4. Display whether answer was accepted or not (human-readable).
 
 The formula is global and changes every two seconds. You do not need to
 implement any cookie handling. The webserver on which the above page is
