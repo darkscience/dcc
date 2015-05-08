@@ -1,7 +1,13 @@
 # Darkscience Code Contest
 
 ## Current contest
-There is no current contest.
+The current DCC assignment consists of creating a properly functioning quine.
+There are plenty of examples floating around on the internet, make sure not to
+be too inspired by any of these or your submission will not be valid. Bonus
+credits can be achieved for originality. Extremely short code is rewarded as
+well.
+
+Good luck!
 
 ## Summary
 
@@ -35,10 +41,8 @@ into the according branch for there to stay.
 
 ## Previous contests
 Month         | Assignment    | Winner     | Branch
---------------|---------------|------------|-------
-January 2014  | Timed Product | *Fox*      | Jan14
-December 2013 | Quine         | *whoami*   | Dec13
-October 2013  | Game of Life  | *MrDownNL* | Oct13
+--------------|---------------|------------|------------------------------------------------------
+October 2013  | Game of Life  | *MrDownNL* | [Oct13](https://github.com/darkscience/dcc/tree/Oct13)
 
 ## Contact
 If you have any questions regarding the contest feel free to join #dcc on
