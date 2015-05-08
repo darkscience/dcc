@@ -1,7 +1,20 @@
 # Darkscience Code Contest
 
-## Current contest
-There is no current contest.
+## Current contest: January 2014 - Timed Product
+The current DCC assignment consists of creating an application that does the
+following:
+
+    1. Retrieve formula from this page.
+    2. Calculate the product.
+    3. Submit formula on the above page using a POST request.
+    4. Display whether answer was accepted or not (human-readable).
+
+The formula is global and changes every two seconds. You do not need to
+implement any cookie handling. The webserver on which the above page is
+hosted was specifically created for this challenge, do not attempt to abuse
+it.
+
+Good luck!
 
 ## Summary
 
@@ -35,10 +48,9 @@ into the according branch for there to stay.
 
 ## Previous contests
 Month         | Assignment    | Winner     | Branch
---------------|---------------|------------|-------
-January 2014  | Timed Product | *Fox*      | Jan14
-December 2013 | Quine         | *whoami*   | Dec13
-October 2013  | Game of Life  | *MrDownNL* | Oct13
+--------------|---------------|------------|------------------------------------------------------
+December 2013 | Quine         | *whoami*   | [Dec13](https://github.com/darkscience/dcc/tree/Dec13)
+October 2013  | Game of Life  | *MrDownNL* | [Oct13](https://github.com/darkscience/dcc/tree/Oct13)
 
 ## Contact
 If you have any questions regarding the contest feel free to join #dcc on
