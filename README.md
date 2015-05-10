@@ -1,6 +1,6 @@
 # Darkscience Code Contest
 
-## Current contest
+## Current contest - TGS Emulator
 Recently while renovating the Science Museum in London, staff have discovered
 a previously unknown asset. It appears that in the archives blueprints and demo
 programs were present for one of the very first game consoles to exist.
@@ -38,7 +38,7 @@ contestants finishing in the top 3.
    3. A large Darkscience sticker
 
 Prizes are handed out per submission, any teams will have to figure out how to
-share the prize.
+share their prize.
 
 ### Help, this sounds way too hard!
 Don't worry, it's actually not that hard at all. More likely, you're just not
@@ -51,6 +51,11 @@ a solution toghether:
    - Writing a NES emulator: [Hackaday - How to write a program that functions like an NES CPU](http://hackaday.com/2012/10/12/emulators-101-how-to-write-a-program-that-functions-like-an-nes-cpu/)
    - 7-Segment display: [Wikipedia - Seven-segment display](http://en.wikipedia.org/wiki/Seven-segment_display)
    - If all else fails: [Plan B](http://www.floristrycourseonline.com/)
+
+The video on writing a NES emulator covers much more advanced techniques than
+you will need for this assignment, but it is an interesting watch nevertheless.
+You can also join the #dcc channel and ask around there if you have any
+speficic issues.
 
 ### Calendar
 
