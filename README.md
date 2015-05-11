@@ -55,7 +55,7 @@ a solution toghether:
 The video on writing a NES emulator covers much more advanced techniques than
 you will need for this assignment, but it is an interesting watch nevertheless.
 You can also join the #dcc channel and ask around there if you have any
-speficic issues.
+specific issues.
 
 ### Calendar
 
