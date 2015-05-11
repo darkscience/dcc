@@ -63,7 +63,7 @@ speficic issues.
    - End of submissions: 2015 Jul 12
    - Results: 2015 Jul 26
 
-After the submission deadline has passed, a reference assembler and compiler
+After the submission deadline has passed, a reference assembler and emulator
 that were used during development of the demo programs will be released.
 
 ## Summary
