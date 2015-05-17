@@ -100,11 +100,11 @@ Left and right shifts, and boolean logic.
     - 0011.0100   XOR <register> <register>
     - 0011.0101   XOR <register> <value>
  
- ### Branching operations
- After comparing two values, the program can branch (or jump) to different
- locations in the program, depending on the result. The following conditions
- are represented with the different branching instructions: always, equal,
- not equal, greater than, less than.
+### Branching operations
+After comparing two values, the program can branch (or jump) to different
+locations in the program, depending on the result. The following conditions
+are represented with the different branching instructions: always, equal,
+not equal, greater than, less than.
 
     - 0100.0000   CMP <register> <register>
     - 0100.0001   CMP <register> <value>
